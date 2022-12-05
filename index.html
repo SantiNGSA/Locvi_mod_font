@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <h4><span>IsotipO</span> Locvi Mod Font Showcase</h4>
+    </header>
+    <main>
+      <div class="intro">
+        <h5>Introducción</h5>
+        <p class="parrafo_1">
+          Locvi es una aplicación que quiere fomentar la compra en pequeños
+          negocios y comercios locales. Quiere ser una herramienta perfectamente
+          usable en el día a día que te ayude a tomar nuevas iniciativas en tus
+          decisiones de consumo. Locvi quiere funcionar de una manera
+          distintiva, diferenciandose de otras apps, con funcionalidades únicas
+          y aportando valores éticos que faciliten a el usuario el consumir de
+          una manera mas local y consciente.
+        </p>
+        <p class="parrafo_1">
+          La fuente utilizada en la aplicación se llama Space Grotesk, creada
+          por Florian Karsten Studio y disponible en la plataforma de
+          tipografías de uso libre Google Fonts. Esta ha sido modificada,
+          integrando un set de iconos que se construyen mediante ligaduras para
+          crear un sistema de identificación para las diferentes categorías de
+          negocios locales de la ciudad. El introducir el sistema de iconos
+          dentro la propia tipografía facilitara la construcción de la
+          aplicación gracias a la facilidad que proporciona la construcción
+          mediante ligaduras.
+        </p>
+      </div>
+      <div class="construccion">
+        <h5>Construcción</h5>
+        <p class="parrafo_1">
+          La construcción de los iconos se ha creado a partir de una rejilla de
+          17x17 para el caso de la versión light y 9x9 la versión bold. Para las
+          versiones intermedias entre Light y Bold no hay retícula establecida
+          ya que se forman mediante la interpolación de ambas partes.
+        </p>
+        <div class="divrejilla">
+          <div class="divrejilla_item">
+            <p class="divrejilla_title">17x17</p>
+            <img class="rejilla" src="./img/rejillalight.png" alt="" />
+          </div>
+          <div class="divrejilla_item">
+            <p class="divrejilla_title">9x9</p>
+            <img class="rejilla" src="./img/rejillabold.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="alturas">
+        <h5>Tamaños</h5>
+        <p class="parrafo_1">
+          El tamaño de los iconos se forma a partir de las medidas de la fuente.
+          Se ha usado como referencia el caso de la tipografía GT Maru, que
+          también tiene un sistema de iconos para establecer el tamaño. Se forma
+          a partir de la altura de las mayusculas (x en la ilustración) mas el
+          tamaño de las descendentes hacia ambos lados (y en la ilustración).
+        </p>
+        <div class="divalturas">
+          <img class="imgaltura" src="./img/rejillaalturas.png" alt="" />
+        </div>
+      </div>
+    </main>
+    <div class="container_iconos">
+      <div class="container_iconos_header">
+        <h5>Iconos</h5>
+        <h6>Anim Variation</h6>
+      </div>
+      <!-- FILA1 -->
+      <div class="container_iconos_body">
+        <div class="container_iconos_item">
+          <div class="icono_item_title">
+            <h6>Panadería</h6>
+          </div>
+          <div class="icono_item_icono">
+            <p id="icono_pana" class="icono_animado">panaderia</p>
+          </div>
+          <div class="icono_item_range">
+            <div class="value_container_wght">
+              <span id="demoWght">Peso</span>
+            </div>
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderWght"
+              id="h1weight_pana"
+            />
+            <div class="value_container_anim">
+              <span id="demoAnim">Animación</span>
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="0"
+              class="sliderAnim"
+              id="h1anim_pana"
+            />
+          </div>
+        </div>
+        <div class="container_iconos_item">
+          <div class="icono_item_title">
+            <h6>Joyería</h6>
+          </div>
+          <div class="icono_item_icono">
+            <p id="icono_joye" class="icono_animado">joyeria</p>
+          </div>
+          <div class="icono_item_range">
+            <div class="value_container_wght">
+              <span id="demoWght">Peso</span>
+            </div>
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderWght"
+              id="h1weight_joye"
+            />
+            <div class="value_container_anim">
+              <span id="demoAnim">Animación</span>
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="0"
+              class="sliderAnim"
+              id="h1anim_joye"
+            />
+          </div>
+        </div>
+        <div class="container_iconos_item">
+          <div class="icono_item_title">
+            <h6>Pescadería</h6>
+          </div>
+          <div class="icono_item_icono">
+            <p id="icono_pesc" class="icono_animado">pescaderia</p>
+          </div>
+          <div class="icono_item_range">
+            <div class="value_container_wght">
+              <span id="demoWght">Peso</span>
+            </div>
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderWght"
+              id="h1weight_pesc"
+            />
+            <div class="value_container_anim">
+              <span id="demoAnim">Animación</span>
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="0"
+              class="sliderAnim"
+              id="h1anim_pesc"
+            />
+          </div>
+        </div>
+        <div class="container_iconos_item">
+          <div class="icono_item_title">
+            <h6>Restaurante</h6>
+          </div>
+          <div class="icono_item_icono">
+            <p id="icono_rest" class="icono_animado">restaurante</p>
+          </div>
+          <div class="icono_item_range">
+            <div class="value_container_wght">
+              <span id="demoWght">Peso</span>
+            </div>
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderWght"
+              id="h1weight_rest"
+            />
+            <div class="value_container_anim">
+              <span id="demoAnim">Animación</span>
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="0"
+              class="sliderAnim"
+              id="h1anim_rest"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- FILA2 -->
+      <div class="container_iconos_body">
+        <div class="container_iconos_item">
+          <div class="icono_item_title">
+            <h6>Comida Rápida</h6>
+          </div>
+          <div class="icono_item_icono">
+            <p id="icono_crapida" class="icono_animado">crapida</p>
+          </div>
+          <div class="icono_item_range">
+            <div class="value_container_wght">
+              <span id="demoWght">Peso</span>
+            </div>
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderWght"
+              id="h1weight_crap"
+            />
+            <div class="value_container_anim">
+              <span id="demoAnim">Animación</span>
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="0"
+              class="sliderAnim"
+              id="h1anim_crap"
+            />
+          </div>
+        </div>
+        <div class="container_iconos_item">
+          <div class="icono_item_title">
+            <h6>Juegos</h6>
+          </div>
+          <div class="icono_item_icono">
+            <p id="icono_jmesa" class="icono_animado">juegosmesa</p>
+          </div>
+          <div class="icono_item_range">
+            <div class="value_container_wght">
+              <span id="demoWght">Peso</span>
+            </div>
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderWght"
+              id="h1weight_jmesa"
+            />
+            <div class="value_container_anim">
+              <span id="demoAnim">Animación</span>
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="0"
+              class="sliderAnim"
+              id="h1anim_jmesa"
+            />
+          </div>
+        </div>
+        <div class="container_iconos_item">
+          <div class="icono_item_title">
+            <h6>Librería</h6>
+          </div>
+          <div class="icono_item_icono">
+            <p id="icono_lib" class="icono_animado">libreria</p>
+          </div>
+          <div class="icono_item_range">
+            <div class="value_container_wght">
+              <span id="demoWght">Peso</span>
+            </div>
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderWght"
+              id="h1weight_lib"
+            />
+            <div class="value_container_anim">
+              <span id="demoAnim">Animación</span>
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="0"
+              class="sliderAnim"
+              id="h1anim_lib"
+            />
+          </div>
+        </div>
+        <div class="container_iconos_item">
+          <div class="icono_item_title">
+            <h6>Ropa</h6>
+          </div>
+          <div class="icono_item_icono">
+            <p id="icono_ropa" class="icono_animado">ropa</p>
+          </div>
+          <div class="icono_item_range">
+            <div class="value_container_wght">
+              <span id="demoWght">Peso</span>
+            </div>
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderWght"
+              id="h1weight_ropa"
+            />
+            <div class="value_container_anim">
+              <span id="demoAnim">Animación</span>
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="0"
+              class="sliderAnim"
+              id="h1anim_ropa"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- FILA3 -->
+      <div class="container_iconos_body">
+        <div class="container_iconos_item">
+          <div class="icono_item_title">
+            <h6>Óptica</h6>
+          </div>
+          <div class="icono_item_icono">
+            <p id="icono_opt" class="icono_animado">optica</p>
+          </div>
+          <div class="icono_item_range">
+            <div class="value_container_wght">
+              <span id="demoWght">Peso</span>
+            </div>
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderWght"
+              id="h1weight_opt"
+            />
+            <div class="value_container_anim">
+              <span id="demoAnim">Animación</span>
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="0"
+              class="sliderAnim"
+              id="h1anim_opt"
+            />
+          </div>
+        </div>
+        <div class="container_iconos_item">
+          <div class="icono_item_title">
+            <h6>Perfumería</h6>
+          </div>
+          <div class="icono_item_icono">
+            <p id="icono_perf" class="icono_animado">perfumeria</p>
+          </div>
+          <div class="icono_item_range">
+            <div class="value_container_wght">
+              <span id="demoWght">Peso</span>
+            </div>
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderWght"
+              id="h1weight_perf"
+            />
+            <div class="value_container_anim">
+              <span id="demoAnim">Animación</span>
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="0"
+              class="sliderAnim"
+              id="h1anim_perf"
+            />
+          </div>
+        </div>
+        <div class="container_iconos_item">
+          <div class="icono_item_title">
+            <h6>Animales</h6>
+          </div>
+          <div class="icono_item_icono">
+            <p id="icono_anima" class="icono_animado">animales</p>
+          </div>
+          <div class="icono_item_range">
+            <div class="value_container_wght">
+              <span id="demoWght">Peso</span>
+            </div>
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderWght"
+              id="h1weight_anima"
+            />
+            <div class="value_container_anim">
+              <span id="demoAnim">Animación</span>
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="0"
+              class="sliderAnim"
+              id="h1anim_anima"
+            />
+          </div>
+        </div>
+        <div class="container_iconos_item">
+          <div class="icono_item_title">
+            <h6>Pintura</h6>
+          </div>
+          <div class="icono_item_icono">
+            <p id="icono_pint" class="icono_animado">pintura</p>
+          </div>
+          <div class="icono_item_range">
+            <div class="value_container_wght">
+              <span id="demoWght">Peso</span>
+            </div>
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderWght"
+              id="h1weight_pint"
+            />
+            <div class="value_container_anim">
+              <span id="demoAnim">Animación</span>
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="0"
+              class="sliderAnim"
+              id="h1anim_pint"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- FILA3 -->
+      <div class="container_iconos_body">
+        <div class="container_iconos_item">
+          <div class="icono_item_title">
+            <h6>Cerrajero</h6>
+          </div>
+          <div class="icono_item_icono">
+            <p id="icono_cerra" class="icono_animado">cerrajeria</p>
+          </div>
+          <div class="icono_item_range">
+            <div class="value_container_wght">
+              <span id="demoWght">Peso</span>
+            </div>
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderWght"
+              id="h1weight_cerra"
+            />
+            <div class="value_container_anim">
+              <span id="demoAnim">Animación</span>
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="0"
+              class="sliderAnim"
+              id="h1anim_cerra"
+            />
+          </div>
+        </div>
+        <div class="container_iconos_item">
+          <div class="icono_item_title">
+            <h6>Frutería</h6>
+          </div>
+          <div class="icono_item_icono">
+            <p id="icono_frut" class="icono_animado">fruta</p>
+          </div>
+          <div class="icono_item_range">
+            <div class="value_container_wght">
+              <span id="demoWght">Peso</span>
+            </div>
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderWght"
+              id="h1weight_frut"
+            />
+            <div class="value_container_anim">
+              <span id="demoAnim">Animación</span>
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="0"
+              class="sliderAnim"
+              id="h1anim_frut"
+            />
+          </div>
+        </div>
+        <div class="container_iconos_item">
+          <div class="icono_item_title">
+            <h6>Electrónica</h6>
+          </div>
+          <div class="icono_item_icono">
+            <p id="icono_elec" class="icono_animado">electronica</p>
+          </div>
+          <div class="icono_item_range">
+            <div class="value_container_wght">
+              <span id="demoWght">Peso</span>
+            </div>
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderWght"
+              id="h1weight_elec"
+            />
+            <div class="value_container_anim">
+              <span id="demoAnim">Animación</span>
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="0"
+              class="sliderAnim"
+              id="h1anim_elec"
+            />
+          </div>
+        </div>
+        <div class="container_iconos_item">
+          <div class="icono_item_title">
+            <h6>Bar</h6>
+          </div>
+          <div class="icono_item_icono">
+            <p id="icono_bar" class="icono_animado">bar</p>
+          </div>
+          <div class="icono_item_range">
+            <div class="value_container_wght">
+              <span id="demoWght">Peso</span>
+            </div>
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderWght"
+              id="h1weight_bar"
+            />
+            <div class="value_container_anim">
+              <span id="demoAnim">Animación</span>
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="0"
+              class="sliderAnim"
+              id="h1anim_bar"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container_iconos_body">
+        <div class="container_iconos_item">
+          <div class="icono_item_title">
+            <h6>Fotografía</h6>
+          </div>
+          <div class="icono_item_icono">
+            <p id="icono_foto" class="icono_animado">fotografia</p>
+          </div>
+          <div class="icono_item_range">
+            <div class="value_container_wght">
+              <span id="demoWght">Peso</span>
+            </div>
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderWght"
+              id="h1weight_foto"
+            />
+            <div class="value_container_anim">
+              <span id="demoAnim">Animación</span>
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="0"
+              class="sliderAnim"
+              id="h1anim_foto"
+            />
+          </div>
+        </div>
+        <div class="container_iconos_item">
+          <div class="icono_item_title">
+            <h6>Peluquería</h6>
+          </div>
+          <div class="icono_item_icono">
+            <p id="icono_plqra" class="icono_animado">peluqueria</p>
+          </div>
+          <div class="icono_item_range">
+            <div class="value_container_wght">
+              <span id="demoWght">Peso</span>
+            </div>
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderWght"
+              id="h1weight_plqra"
+            />
+            <div class="value_container_anim">
+              <span id="demoAnim">Animación</span>
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="0"
+              class="sliderAnim"
+              id="h1anim_plqra"
+            />
+          </div>
+        </div>
+        <div class="container_iconos_item">
+          <div class="icono_item_title">
+            <h6>Cafetería</h6>
+          </div>
+          <div class="icono_item_icono">
+            <p id="icono_cftra" class="icono_animado">cafeteria</p>
+          </div>
+          <div class="icono_item_range">
+            <div class="value_container_wght">
+              <span id="demoWght">Peso</span>
+            </div>
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderWght"
+              id="h1weight_cftra"
+            />
+            <div class="value_container_anim">
+              <span id="demoAnim">Animación</span>
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="0"
+              class="sliderAnim"
+              id="h1anim_cftra"
+            />
+          </div>
+        </div>
+        <div class="container_iconos_item">
+          <div class="icono_item_title">
+            <h6>Locvi</h6>
+          </div>
+          <div class="icono_item_icono">
+            <p id="icono_iso" class="icono_animado">IsotipO</p>
+          </div>
+          <div class="icono_item_range">
+            <div class="value_container_wght">
+              <span id="demoWght">Peso</span>
+            </div>
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderWght"
+              id="h1weight_iso"
+            />
+            <div class="value_container_anim">
+              <span id="demoAnim">Animación</span>
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="1000"
+              value="0"
+              class="sliderAnim"
+              id="h1anim_iso"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container_iconos_2">
+      <div class="container_iconos_2_header">
+        <h5>Bold variation</h5>
+      </div>
+      <div class="container_iconos_2_body">
+        <div class="boldicon">panaderia</div>
+        <div class="boldicon">joyeria</div>
+        <div class="boldicon">pescaderia</div>
+        <div class="boldicon">restaurante</div>
+        <div class="boldicon">crapida</div>
+        <div class="boldicon">juegosmesa</div>
+        <div class="boldicon">libreria</div>
+        <div class="boldicon">ropa</div>
+      </div>
+      <div class="container_iconos_2_body">
+        <div class="boldicon">optica</div>
+        <div class="boldicon">perfumeria</div>
+        <div class="boldicon">animales</div>
+        <div class="boldicon">pintura</div>
+        <div class="boldicon">cerrajeria</div>
+        <div class="boldicon">fruta</div>
+        <div class="boldicon">electronica</div>
+      </div>
+    </div>
+    <div class="container_iconos_radar">
+      <div class="container_iconos_radar_visual">
+        <div class="container_iconos_radar_header">
+          <h5>Radar Locvi</h5>
+        </div>
+        <div class="container_iconos_radar_body_1">
+          <div class="visual_radar">
+            <div id="radar1_icon">joyeria</div>
+            <p id="radar1">Joyería</p>
+          </div>
+
+          <div class="rangediv">
+            <img class="extra_icon" src="./img/home.png" alt="" />
+            <input
+              type="range"
+              min="300"
+              max="700"
+              value="0"
+              class="sliderRadar"
+              id="sliderRadar"
+            />
+            <img class="extra_icon" src="./img/store.png" alt="" />
+          </div>
+          <div class="distance_text">
+            <p>So far</p>
+            <p>500M</p>
+            <p>250M</p>
+            <p>100M</p>
+            <p>IsotipOLocvi!</p>
+          </div>
+        </div>
+      </div>
+      <div class="container_iconos_radar_text">
+        <h3>arrowleft arrowleft arrowleft</h3>
+       <p><span class="moveit">El Radar Locvi</span> es una funcionalidad de la aplicación Locvi que te ayudará a encontrar nuevos negocios próximos a tu ubicación.</p>
+       <p>La aplicación quiere que le des vida a esos comercios locales de tu ciudad, por esto mismo los items que tengas apuntados en tu lista de la compra cobrarán vida
+        imitando las palpitaciones de un corazón. Cuanto más cerca te encuentres de el local que te pueda ofrecer lo que necesitas mas visible se hará esta variación en el peso y en la animación de el icono.</p>
+       <p>Podrás activarla en cualquier item apuntado en tu lista de la compra, la aplicación se encargará de hacerte saber si estás muy lejos de las tiendas en el propio item de tu Lista, en el header de la aplicación mientras la estes usando o en el Widget para la pantalla principal de tu dispositivo móvil.
+        que te puedan ofrecer ese producto.
+       </p>
+      </div>
+    </div>
+    <footer>Locvi App Mod Font - Santiago Núñez García - ESDMadrid2022</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
