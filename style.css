@@ -123,8 +123,8 @@
   .construccion{
     
     border-right: 1px solid black;
-    padding: 0 var(--padding_div) 0;
-    padding-right: 0;
+    padding: 0 var(--padding_div) 10;
+    padding-right: 10px;
     padding-bottom: 5em;
   }
   .rejilla{
